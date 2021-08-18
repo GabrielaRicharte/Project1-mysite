@@ -1,0 +1,14 @@
+@import "listas";
+@import "mixins";
+
+/* LABEL */
+.label-header {
+    background-color: nth($colorsSite, 2 );
+    color: nth($colorsSite, 1);
+    @include label-settings(100px, 20px, flex, center, cover);
+    /*background-image: url(../../images/label-bg.jpg);*/
+  
+  }
+  .label-header h2 {
+    margin-bottom: 40px;
+  }

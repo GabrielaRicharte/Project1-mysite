@@ -1,0 +1,32 @@
+@import "../base/listas";
+
+/* FOOTER */
+.site-footer {
+    background-color: nth($colorsSite, 2 );
+    background-size: cover;
+    top: 50px;
+    padding: 50px;
+  }
+  
+  .container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  color: nth($colorsSite, 1 );
+  line-height: 1.8;
+  font-size: 15px;
+  background-color: nth($colorsSite, 2 );
+  padding: 20px;
+
+  .colum1, .colum2, .colum3, .colum4 {
+    justify-self: start;
+  }
+  ul {
+    list-style-type: none;
+  }
+  }
+
+  
+  /* FOOTER */

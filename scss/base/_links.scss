@@ -1,0 +1,25 @@
+@import "listas";
+
+/* -----------LINKS---------------- */
+a {
+    color: nth($colorsSite, 3 );
+    text-decoration: none;
+  }
+  /* unvisited link */
+  a:link {
+    color: nth($colorsSite, 3 );
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: nth($colorsSite, 3 );
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: nth($colorsSite, 4 );
+    text-decoration: none;
+  }
+/* -----------LINKS---------------- */

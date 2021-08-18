@@ -1,0 +1,21 @@
+@import "componentes/header";
+@import "base/buttons";
+@import "base/forms";
+@import "base/links";
+@import "base/indexZero";
+@import "base/labelTop";
+@import "componentes/footer";
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+h2, h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-section1 {
+    background-color: rgb(245, 243, 240);
+}

@@ -1,0 +1,21 @@
+@import "../base/listas";
+
+/* -----------HEADER---------------- */
+.site-navbar {
+    width: 100%;
+    background-color: nth($colorsSite, 2 );
+    position:fixed;
+    z-index: 1999;
+    margin-bottom: 0px;
+    top: 0;
+    a {
+      color: nth($colorsSite, 2 ) !important;
+    }
+    a:hover {
+      color: nth($colorsSite, 2 );
+      font-weight: bolder;
+    }
+    
+}
+
+/* -----------HEADER---------------- */

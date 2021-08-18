@@ -1,0 +1,8 @@
+/* Varios parámetros*/
+@mixin label-settings ($padding, $font, $display, $align, $bg-size) {
+    padding-top: $padding;
+    font-size: $font;
+    display: $display;
+    justify-content: $align;
+    background-size: $bg-size;
+}

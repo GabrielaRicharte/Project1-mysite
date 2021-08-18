@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* -----------HEADER---------------- */
+.site-navbar {
+  width: 100%;
+  background-color: #272525;
+  position: fixed;
+  z-index: 1999;
+  margin-bottom: 0px;
+  top: 0;
+}
+.site-navbar a {
+  color: #272525 !important;
+}
+.site-navbar a:hover {
+  color: #272525;
+  font-weight: bolder;
+}
+
+/* -----------HEADER---------------- */
+/* -----------BUTTON---------------- */
+button {
+  background-color: #272525;
+  padding: 5px 20px;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 20px;
+  border: 2px solid #272525;
+}
+
+button a {
+  color: white;
+}
+
+button a:link {
+  color: white;
+}
+
+button a:visited {
+  color: white;
+}
+
+button:hover a {
+  text-decoration: none;
+  color: #272525;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #272525;
+  transition: all 0.5s;
+}
+
+/* -----------BOTONES---------------- */
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e94647;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e94647;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+.translationHome {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  line-height: 1.8;
+  font-size: 15px;
+  padding: 20px;
+}
+
+/* -----------LINKS---------------- */
+a {
+  color: #C07338;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #C07338;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #C07338;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E94647;
+  text-decoration: none;
+}
+
+/* -----------LINKS---------------- */
+/* SECTION ZERO */
+.Contenedor {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "tituloUno" "tituloDos" "botones";
+}
+
+.tituloUno {
+  grid-area: tituloUno;
+}
+
+.tituloDos {
+  grid-area: tituloDos;
+  font-size: 1em;
+}
+
+.botones {
+  grid-area: botones;
+}
+
+div.welcome {
+  background-image: url("../images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px;
+  text-decoration: none;
+}
+
+.header-block {
+  padding: 10%;
+  min-height: 300px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.682);
+  margin: 10px;
+}
+
+/* FIN SECTION ZERO */
+/* Varios parámetros*/
+/* LABEL */
+.label-header {
+  background-color: #272525;
+  color: white;
+  padding-top: 100px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  /*background-image: url(../../images/label-bg.jpg);*/
+}
+
+.label-header h2 {
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #272525;
+  background-size: cover;
+  top: 50px;
+  padding: 50px;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  color: white;
+  line-height: 1.8;
+  font-size: 15px;
+  background-color: #272525;
+  padding: 20px;
+}
+.container-footer .colum1, .container-footer .colum2, .container-footer .colum3, .container-footer .colum4 {
+  justify-self: start;
+}
+.container-footer ul {
+  list-style-type: none;
+}
+
+/* FOOTER */
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+}
+
+h2, h4 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.bg-section1 {
+  background-color: #f5f3f0;
+}
+
+/*# sourceMappingURL=style.css.map */
