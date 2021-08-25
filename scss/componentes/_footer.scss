@@ -6,11 +6,11 @@
     background-size: cover;
     top: 50px;
     padding: 50px;
-    color: white !important;
+    color: nth($colorsSite, 1 );
   }
   
   .footer-text {
-    color: white !important;
+    color: nth($colorsSite, 1 );
   }
   ul {
     list-style-type: none;

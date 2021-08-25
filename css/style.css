@@ -202,24 +202,14 @@ h1 {
   background-size: cover;
   top: 50px;
   padding: 50px;
+  color: white;
 }
 
-.container-footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 0px;
+.footer-text {
   color: white;
-  line-height: 1.8;
-  font-size: 15px;
-  background-color: #272525;
-  padding: 20px;
 }
-.container-footer .colum1, .container-footer .colum2, .container-footer .colum3, .container-footer .colum4 {
-  justify-self: start;
-}
-.container-footer ul {
+
+ul {
   list-style-type: none;
 }
 
