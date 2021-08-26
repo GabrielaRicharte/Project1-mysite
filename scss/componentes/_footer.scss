@@ -11,11 +11,16 @@
   
   .footer-text {
     color: nth($colorsSite, 1 );
+    font-size: 14px;
   }
   ul {
     list-style-type: none;
   }
   
 
-  
+  footer .copy-bar{
+    background-color: nth($colorsSite, 2 );
+    color: nth($colorsSite, 1 );
+    font-size: 12px;
+  }
   /* FOOTER */
