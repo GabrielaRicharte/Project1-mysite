@@ -38,14 +38,13 @@
     grid-area: botones;
   }
   div.welcome {
-      background-image: url("../images/header-background.jpg");
-      background-repeat: no-repeat;
+      // background-image: url("../images/header-background.jpg");
+      background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 243, 240) 50%);
+      // background-repeat: no-repeat;
       background-size:cover;
-      padding: 100px;
     }
     
     h1 {
-      font-size: 40px;
       margin: 50px;
       text-decoration: none;
     }
@@ -55,10 +54,28 @@
       padding: 10%;
       min-height: 300px;
       position: relative;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(255, 255, 255, 0.682);
+      font-size: 20px;
       margin: 10px;
     
+    }
+    @media only screen and (max-width:734px) {
+      .header-block {
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        
+      }
+      h1 {
+        font-size: 30px;
+      }
+      
+    }
+
+    @media only screen and (min-width:769px) {
+      .header-block {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+      }
     }
   /* FIN SECTION ZERO */

@@ -5,10 +5,30 @@
 .label-header {
     background-color: nth($colorsSite, 2 );
     color: nth($colorsSite, 1);
-    @include label-settings(100px, 20px, flex, center, cover);
-    /*background-image: url(../../images/label-bg.jpg);*/
+    @include label-settings(100px, 20px, flex, cover);
   
   }
   .label-header h2 {
     margin-bottom: 40px;
+  }
+
+  @media only screen and (max-width:699px) {
+    .label-header {
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: start;
+      
+    }
+    h1 {
+      font-size: 30px;
+    }
+    
+  }
+
+  @media only screen and (min-width:700px) {
+    .label-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+    }
   }
