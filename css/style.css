@@ -25,6 +25,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-weight: bold;
   font-size: 13px;
   border-radius: 20px;
   border: 2px solid #272525;
@@ -45,7 +46,7 @@ button a:visited {
 button:hover a {
   text-decoration: none;
   color: #272525;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 button:hover {
