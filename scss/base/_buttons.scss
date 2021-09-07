@@ -12,6 +12,7 @@ button {
     font-size: 13px;
     border-radius: 20px; 
     border: 2px solid nth($colorsSite, 2 );
+    color: nth($colorsSite, 1 );
   }
   
   button a{
@@ -34,6 +35,7 @@ button {
       background-color: transparent;
       border: 2px solid nth($colorsSite, 2 );
       transition: all 0.5s;
+      color: nth($colorsSite, 2 )
   }
   
 

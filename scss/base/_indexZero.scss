@@ -1,6 +1,13 @@
 @import "listas";
 
 /* SECTION ZERO */
+.navbar-toggler{
+border-color: nth($colorsSite, 2)
+}
+.navbar-light span.navbar-toggler-icon{
+  border-color: nth($colorsSite, 2)
+}
+
 .Contenedor {
     display: grid;
     grid-template-columns: auto;
@@ -57,10 +64,6 @@
       font-size: 20px;
       margin: 5px;
     
-    }
-
-    .fadeInLeft {
-      border-radius: 10%;
     }
 
     @media only screen and (max-width:734px) {
