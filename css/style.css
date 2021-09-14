@@ -156,9 +156,9 @@ a:hover {
 }
 
 div.welcome {
-  background: linear-gradient(90deg, white 50%, #f5f3f0 50%);
+  background: linear-gradient(90deg, white 50%, #eceae5 50%);
   background-size: cover;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 h1 {
@@ -171,6 +171,31 @@ h1 {
   position: relative;
   font-size: 20px;
   margin: 5px;
+}
+
+.IndexImage {
+  padding-top: 2%;
+  transition: all 1.5s ease-in-out;
+}
+
+.IndexImage:hover {
+  transform: translateY(100px);
+}
+
+.IndexImage2 {
+  transition: all 1.5s ease-in-out;
+}
+
+.IndexImage2:hover {
+  transform: rotate(180deg);
+}
+
+.ImageAbout {
+  transition: all 1.5s ease-in-out;
+}
+
+.ImageAbout:hover {
+  transform: translate(100px);
 }
 
 @media only screen and (max-width: 734px) {
@@ -188,7 +213,7 @@ h1 {
   background-color: #cc9e7a;
   color: white;
   height: 10%;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 @media only screen and (min-width: 769px) {

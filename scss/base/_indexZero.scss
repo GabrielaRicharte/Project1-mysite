@@ -46,10 +46,10 @@ border-color: nth($colorsSite, 2)
   }
   div.welcome {
       // background-image: url("../images/header-background.jpg");
-      background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 243, 240) 50%);
+      background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(236, 234, 229) 50%);
       // background-repeat: no-repeat;
       background-size:cover;
-      padding-bottom: 5%;
+      padding-bottom: 1%;
   
     }
     
@@ -64,6 +64,28 @@ border-color: nth($colorsSite, 2)
       font-size: 20px;
       margin: 5px;
     
+    }
+
+    .IndexImage{
+      padding-top: 2%;
+      transition: all 1.5s ease-in-out;
+      
+    }
+    .IndexImage:hover{
+      transform: translateY(100px);
+    }
+    .IndexImage2 {
+      transition: all 1.5s ease-in-out;
+    }
+    .IndexImage2:hover {
+      transform: rotate(180deg);
+    }
+
+    .ImageAbout{
+      transition: all 1.5s ease-in-out
+    }
+    .ImageAbout:hover {
+      transform: translate(100px);
     }
 
     @media only screen and (max-width:734px) {
@@ -83,7 +105,7 @@ border-color: nth($colorsSite, 2)
     background-color: nth($colorsSite, 6);
     color: nth($colorsSite, 1);
     height: 10%;
-    padding: 3rem;
+    padding: 2rem;
 
     }
 
