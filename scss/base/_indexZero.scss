@@ -68,12 +68,12 @@ border-color: nth($colorsSite, 2)
 
     .IndexImage{
       padding-top: 2%;
-      transition: all 1.5s ease-in-out;
+      // transition: all 1.5s ease-in-out;
       
     }
-    .IndexImage:hover{
-      transform: translateY(100px);
-    }
+    // .IndexImage:hover{
+    //   transform: translateY(100px);
+    // }
     .IndexImage2 {
       transition: all 1.5s ease-in-out;
     }
@@ -81,12 +81,12 @@ border-color: nth($colorsSite, 2)
       transform: rotate(180deg);
     }
 
-    .ImageAbout{
-      transition: all 1.5s ease-in-out
-    }
-    .ImageAbout:hover {
-      transform: translate(100px);
-    }
+    // .ImageAbout{
+    //   transition: all 1.5s ease-in-out
+    // }
+    // .ImageAbout:hover {
+    //   transform: translate(100px);
+    // }
 
     @media only screen and (max-width:734px) {
       .header-block {
